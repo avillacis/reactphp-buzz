@@ -4,7 +4,7 @@ use Clue\React\Buzz\Io\Transaction;
 use Clue\React\Buzz\Message\ResponseException;
 use PHPUnit\Framework\MockObject\MockObject;
 use Psr\Http\Message\RequestInterface;
-use RingCentral\Psr7\Response;
+use GuzzleHttp\Psr7\Response;
 use Clue\React\Buzz\Message\MessageFactory;
 use React\Promise;
 use Clue\React\Block;

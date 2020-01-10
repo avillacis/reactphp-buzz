@@ -7,7 +7,7 @@ use React\HttpClient\Client as HttpClient;
 use React\HttpClient\RequestData;
 use React\Promise;
 use React\Stream\ThroughStream;
-use RingCentral\Psr7\Request;
+use GuzzleHttp\Psr7\Request;
 
 class SenderTest extends TestCase
 {

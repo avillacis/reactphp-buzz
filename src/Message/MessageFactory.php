@@ -4,9 +4,9 @@ namespace Clue\React\Buzz\Message;
 
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\UriInterface;
-use RingCentral\Psr7\Request;
-use RingCentral\Psr7\Response;
-use RingCentral\Psr7\Uri;
+use GuzzleHttp\Psr7\Request;
+use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Psr7\Uri;
 use React\Stream\ReadableStreamInterface;
 
 /**
@@ -56,7 +56,7 @@ class MessageFactory
             return new ReadableBodyStream($body);
         }
 
-        return \RingCentral\Psr7\stream_for($body);
+        return \GuzzleHttp\Psr7\stream_for($body);
     }
 
     /**

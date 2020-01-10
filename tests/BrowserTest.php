@@ -4,7 +4,7 @@ use Clue\React\Block;
 use Clue\React\Buzz\Browser;
 use Psr\Http\Message\RequestInterface;
 use React\Promise\Promise;
-use RingCentral\Psr7\Uri;
+use GuzzleHttp\Psr7\Uri;
 
 class BrowserTest extends TestCase
 {
