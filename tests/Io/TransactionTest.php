@@ -9,11 +9,14 @@ use Clue\React\Buzz\Message\ResponseException;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
+use Clue\React\Buzz\Message\MessageFactory;
+use React\Promise;
+use Clue\React\Block;
 use React\EventLoop\Factory;
 use React\Promise;
 use React\Promise\Deferred;
 use React\Stream\ThroughStream;
-use RingCentral\Psr7\Response;
+use GuzzleHttp\Psr7\Response;
 
 class TransactionTest extends TestCase
 {

@@ -3,7 +3,7 @@
 use Clue\React\Buzz\Browser;
 use Psr\Http\Message\ResponseInterface;
 use React\Stream\ReadableStreamInterface;
-use RingCentral\Psr7;
+use GuzzleHttp\Psr7;
 
 $url = isset($argv[1]) ? $argv[1] : 'http://google.com/';
 

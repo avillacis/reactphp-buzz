@@ -13,7 +13,7 @@ use React\Http\StreamingServer;
 use React\Promise\Stream;
 use React\Socket\Connector;
 use React\Stream\ThroughStream;
-use RingCentral\Psr7\Request;
+use GuzzleHttp\Psr7\Request;
 
 class FunctionalBrowserTest extends TestCase
 {

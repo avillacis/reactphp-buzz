@@ -5,7 +5,7 @@ use Psr\Http\Message\ResponseInterface;
 use React\EventLoop\Factory as LoopFactory;
 use React\Socket\FixedUriConnector;
 use React\Socket\UnixConnector;
-use RingCentral\Psr7;
+use GuzzleHttp\Psr7;
 
 require __DIR__ . '/../vendor/autoload.php';
 

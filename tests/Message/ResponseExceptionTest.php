@@ -4,7 +4,7 @@ namespace Clue\Tests\React\Buzz\Message;
 
 use Clue\React\Buzz\Message\ResponseException;
 use PHPUnit\Framework\TestCase;
-use RingCentral\Psr7\Response;
+use GuzzleHttp\Psr7\Response;
 
 class ResponseExceptionTest extends TestCase
 {
